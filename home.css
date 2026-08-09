@@ -63,3 +63,40 @@ footer{
     text-align: left;
     flex-wrap: wrap;
 }
+
+@media(max-width: 600px){
+    nav{
+        flex-direction: column;
+        gap: 10px;
+        padding: 10px;
+    }
+.heading{
+    flex-direction: column;
+    text-align: center;
+}
+
+.heading img{
+    width: 100%;
+    max-width: 320px;
+    height:auto;
+}
+
+.our_students img{
+    width: 100%;
+    max-width: 320px;
+    height:auto;
+}
+
+.mission img{
+    width: 100%;
+    max-width: 320px;
+    height:auto;
+}
+
+
+footer{
+    flex-direction: column;
+    text-align: center;
+}
+
+}
