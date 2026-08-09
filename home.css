@@ -1,0 +1,65 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav{
+    background-color: white;
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+}
+
+a{
+    color: blue;
+}
+
+
+header{
+    background-color: #F1F1FB;
+}
+
+.heading{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 40px;
+}
+
+.stats{
+    background-color: #6674CC;
+    color: white;
+    text-align: center;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+button{
+    background-color: #364BC5;
+    color: white;
+    padding: 15px;
+}
+
+div{
+    text-align: center;
+}
+   
+.color_change{
+    color: #364BC5;
+}
+
+.students_list{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 40px 20px;
+    align-items: center;
+}
+
+footer{
+    display: flex;
+    justify-content: space-around;
+    padding: 40px 20px;
+    text-align: left;
+    flex-wrap: wrap;
+}
