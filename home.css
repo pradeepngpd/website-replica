@@ -46,7 +46,7 @@ button{
 }
 
 
-.join_us{
+.join-us-wrapper{
     display: flex;
     justify-content: center;
     align-items: flex-start;
@@ -54,18 +54,30 @@ button{
     text-align: center;
 }
 
-.join_us section{
+.join-us-item{
     width: 240px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-.join_us img{
-    width: 120px;
+.join-us-item a{
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 6px;
+}
+
+.join-us-item img{
+    width: 60px;
     height: auto;
 }
 
-.join_us p{
+.join-us-item p{
+    margin: 8px 0 0;
     font-size: 14px;
-    font: bold;
 }
 
 div{
